@@ -21,16 +21,6 @@ Python | PyTorch | TensorFlow | Scikit-learn | FastAPI | Flask
 Docker | Kubernetes | Git | SQL | MongoDB  
 C++ | OpenCV | LaTeX | JavaScript | React
 
-## Featured Projects
-
-### [AIAGENT](https://github.com/pouyashaeri/AIAGENT)
-An AI-powered agent that automatically drafts and sends follow-up emails for job applications using GPT-4 and Gmail API.
-
-### [LeetCode Microservices](https://github.com/pouyashaeri/two_sum_api)
-Classic LeetCode problems restructured as microservices using Flask, deployed to Replit.
-
-### [PyOpenMRT](https://github.com/pouyashaeri/PyOpenMRT)
-A physics-based modeling tool to compute outdoor thermal comfort using six-direction environmental images and metadata.
 
 ## GitHub Metrics
 
