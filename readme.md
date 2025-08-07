@@ -24,6 +24,7 @@ C++ | OpenCV | LaTeX | JavaScript | React
 
 ## GitHub Metrics
 
+<img src="https://github.com/pouyashaeri/pouyashaeri/blob/main/metrics.svg" alt="GitHub Metrics" />
 
 ## Contact
 LinkedIn: https://linkedin.com/in/pouyashaeri  
