@@ -56,7 +56,7 @@ ax.axvline(x=past_times[-1], color="gray", linestyle=":", linewidth=1.2, label="
 ax.xaxis.set_major_formatter(mdates.DateFormatter("%H:%M"))
 ax.xaxis.set_major_locator(mdates.HourLocator(interval=3))
 plt.xticks(rotation=45)
-ax.set_title("🌵 Phoenix Airport — Past 6h Actual + 18h Forecast", fontsize=13, pad=10)
+ax.set_title("Phoenix Airport — Past 6h Actual + 18h Forecast", fontsize=13, pad=10)
 ax.set_ylabel("Temperature (°C)")
 ax.legend(loc="upper right", fontsize=9)
 ax.grid(axis="y", linestyle="--", alpha=0.35)
