@@ -24,7 +24,7 @@ jobs:
           plugin_languages_details: percentage
           plugin_habits: yes
           plugin_habits_from: all
-          plugin_habits_facts: yes
+          # plugin_habits_facts: yes
           plugin_lines: yes
           # plugin_achievements: yes
           # plugin_achievements_display: compact
