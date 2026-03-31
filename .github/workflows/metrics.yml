@@ -1,26 +1,29 @@
-name: GitHub Metrics
+name: GitHub Metrics + Arizona Heat
 
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule:
+    - cron: "0 0 * * *"  # daily
   workflow_dispatch:
-  push: {branches: ["main"]}
+  push:
+    branches: ["main"]
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo
       - uses: actions/checkout@v3
 
-      # Install Python deps
-      - name: Install deps
-        run: pip install requests
+      # 2️⃣ Install dependencies
+      - name: Install Python deps
+        run: pip install requests matplotlib
 
-      # Generate weather file
+      # 3️⃣ Generate weather data
       - name: Fetch Arizona weather
         run: python scripts/weather.py
 
-      # Generate metrics (with weather inside)
+      # 4️⃣ Generate metrics with injected weather
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
@@ -30,11 +33,19 @@ jobs:
           config_timezone: "America/Phoenix"
 
           plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
           plugin_languages: yes
+          plugin_languages_ignored: >-
+            Jupyter Notebook
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+
           plugin_lines: yes
           plugin_traffic: yes
           plugin_followup: yes
 
-          # inject the weather
+          # 🔥 CUSTOM WEATHER SECTION
           plugin_custom: yes
           plugin_custom_source: weather.md
