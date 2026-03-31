@@ -2,7 +2,7 @@ name: GitHub Metrics + Arizona Heat
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # daily
+    - cron: "0 */2 * * *"  # every 2 hours
   workflow_dispatch:
   push:
     branches: ["main"]
@@ -10,42 +10,44 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required to push weather files back to repo
 
     steps:
       # 1️⃣ Checkout repo
       - uses: actions/checkout@v3
 
-      # 2️⃣ Install dependencies
+      # 2️⃣ Install Python dependencies
       - name: Install Python deps
         run: pip install requests matplotlib
 
-      # 3️⃣ Generate weather data
+      # 3️⃣ Generate weather chart and summary
       - name: Fetch Arizona weather
         run: python scripts/weather.py
 
-      # 4️⃣ Generate metrics with injected weather
+      # 4️⃣ Commit weather.png and weather.md back to repo
+      - name: Commit weather files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add weather.png weather.md
+          git diff --cached --quiet || git commit -m "chore: update Arizona weather [skip ci]"
+          git push
+
+      # 5️⃣ Generate GitHub metrics SVG
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
           base: "header, repositories"
           config_timezone: "America/Phoenix"
-
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
           plugin_languages: yes
-          plugin_languages_ignored: >-
-            Jupyter Notebook
+          plugin_languages_ignored: Jupyter Notebook
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-
           plugin_lines: yes
           plugin_traffic: yes
           plugin_followup: yes
-
-          # 🔥 CUSTOM WEATHER SECTION
-          plugin_custom: yes
-          plugin_custom_source: weather.md
