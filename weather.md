@@ -2,8 +2,8 @@
 
 | Condition        | Value                                    |
 |------------------|------------------------------------------|
-| 🌡️ Temperature   | 31.1°C (feels like 30.6°C) |
-| 💧 Humidity      | 25%                              |
+| 🌡️ Temperature   | 31.1°C (feels like 31.0°C) |
+| 💧 Humidity      | 28%                              |
 | 💨 Wind          | 11.2 km/h N |
 | ☀️ UV Index      | 5.8                               |
 | 🌧️ Precipitation | 0.0 mm                              |
