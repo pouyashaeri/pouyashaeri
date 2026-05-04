@@ -1,13 +1,13 @@
-🌵 Arizona Heat Reality — Updated May 04, 2026 at 14:00 (Phoenix time)
+🌵 Arizona Heat Reality — Updated May 04, 2026 at 15:45 (Phoenix time)
 
 | Condition        | Value                                    |
 |------------------|------------------------------------------|
-| 🌡️ Temperature   | 27.8°C (feels like 26.0°C) |
-| 💧 Humidity      | 27%                              |
-| 💨 Wind          | 17.1 km/h SW |
-| ☀️ UV Index      | 3.9                               |
+| 🌡️ Temperature   | 25.9°C (feels like 23.9°C) |
+| 💧 Humidity      | 33%                              |
+| 💨 Wind          | 11.4 km/h W |
+| ☀️ UV Index      | 3.1                               |
 | 🌧️ Precipitation | 0.0 mm                              |
-| 📈 24h Range     | 15.6°C – 28.3°C              |
+| 📈 24h Range     | 17.0°C – 26.1°C              |
 
 🙂 Surprisingly survivable.
 
