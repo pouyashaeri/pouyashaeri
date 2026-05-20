@@ -1,13 +1,13 @@
-🌵 Arizona Heat Reality — Updated May 20, 2026 at 03:45 (Phoenix time)
+🌵 Arizona Heat Reality — Updated May 20, 2026 at 07:45 (Phoenix time)
 
 | Condition        | Value                                    |
 |------------------|------------------------------------------|
-| 🌡️ Temperature   | 20.2°C (feels like 15.9°C) |
-| 💧 Humidity      | 10%                              |
-| 💨 Wind          | 6.5 km/h E |
-| ☀️ UV Index      | 0.0                               |
+| 🌡️ Temperature   | 24.5°C (feels like 21.3°C) |
+| 💧 Humidity      | 12%                              |
+| 💨 Wind          | 1.8 km/h NE |
+| ☀️ UV Index      | 1.8                               |
 | 🌧️ Precipitation | 0.0 mm                              |
-| 📈 24h Range     | 18.7°C – 34.3°C              |
+| 📈 24h Range     | 20.6°C – 34.3°C              |
 
 🧊 Wait, is this still Phoenix?
 
