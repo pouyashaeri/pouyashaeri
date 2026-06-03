@@ -1,15 +1,15 @@
-🌵 Arizona Heat Reality — Updated Jun 03, 2026 at 12:30 (Phoenix time)
+🌵 Arizona Heat Reality — Updated Jun 03, 2026 at 15:15 (Phoenix time)
 
 | Condition        | Value                                    |
 |------------------|------------------------------------------|
-| 🌡️ Temperature   | 39.1°C (feels like 39.5°C) |
-| 💧 Humidity      | 7%                              |
-| 💨 Wind          | 2.6 km/h SW |
-| ☀️ UV Index      | 8.6                               |
+| 🌡️ Temperature   | 41.0°C (feels like 38.6°C) |
+| 💧 Humidity      | 6%                              |
+| 💨 Wind          | 9.2 km/h W |
+| ☀️ UV Index      | 6.3                               |
 | 🌧️ Precipitation | 0.0 mm                              |
-| 📈 24h Range     | 23.3°C – 41.3°C              |
+| 📈 24h Range     | 22.6°C – 40.8°C              |
 
-😅 Still normal for Arizona.
+☀️ Desert mode activated.
 
 > "In Arizona, we don't check the weather.
 > We check if it's survivable."
