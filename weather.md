@@ -1,13 +1,13 @@
-🌵 Arizona Heat Reality — Updated Jul 27, 2026 at 12:15 (Phoenix time)
+🌵 Arizona Heat Reality — Updated Jul 27, 2026 at 14:00 (Phoenix time)
 
 | Condition        | Value                                    |
 |------------------|------------------------------------------|
-| 🌡️ Temperature   | 42.0°C (feels like 45.2°C) |
-| 💧 Humidity      | 24%                              |
-| 💨 Wind          | 11.5 km/h W |
-| ☀️ UV Index      | 8.6                               |
+| 🌡️ Temperature   | 43.6°C (feels like 46.2°C) |
+| 💧 Humidity      | 21%                              |
+| 💨 Wind          | 12.2 km/h W |
+| ☀️ UV Index      | 8.1                               |
 | 🌧️ Precipitation | 0.0 mm                              |
-| 📈 24h Range     | 32.2°C – 44.1°C              |
+| 📈 24h Range     | 31.6°C – 44.1°C              |
 
 ☀️ Desert mode activated.
 
