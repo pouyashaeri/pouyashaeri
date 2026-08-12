@@ -1,13 +1,13 @@
-🌵 Arizona Heat Reality — Updated Aug 11, 2026 at 21:00 (Phoenix time)
+🌵 Arizona Heat Reality — Updated Aug 12, 2026 at 00:15 (Phoenix time)
 
 | Condition        | Value                                    |
 |------------------|------------------------------------------|
-| 🌡️ Temperature   | 34.2°C (feels like 34.5°C) |
-| 💧 Humidity      | 33%                              |
-| 💨 Wind          | 10.8 km/h W |
+| 🌡️ Temperature   | 32.0°C (feels like 32.9°C) |
+| 💧 Humidity      | 37%                              |
+| 💨 Wind          | 6.1 km/h NW |
 | ☀️ UV Index      | 0.0                               |
 | 🌧️ Precipitation | 0.0 mm                              |
-| 📈 24h Range     | 23.3°C – 39.5°C              |
+| 📈 24h Range     | 28.2°C – 39.1°C              |
 
 🙂 Surprisingly survivable.
 
