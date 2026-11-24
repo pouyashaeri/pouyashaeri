@@ -1,13 +1,13 @@
-🌵 Arizona Heat Reality — Updated Nov 23, 2026 at 06:45 (Phoenix time)
+🌵 Arizona Heat Reality — Updated Nov 23, 2026 at 18:15 (Phoenix time)
 
 | Condition        | Value                                    |
 |------------------|------------------------------------------|
-| 🌡️ Temperature   | 9.2°C (feels like 6.8°C) |
-| 💧 Humidity      | 69%                              |
-| 💨 Wind          | 6.6 km/h E |
+| 🌡️ Temperature   | 15.2°C (feels like 11.6°C) |
+| 💧 Humidity      | 31%                              |
+| 💨 Wind          | 7.9 km/h W |
 | ☀️ UV Index      | 0.0                               |
 | 🌧️ Precipitation | 0.0 mm                              |
-| 📈 24h Range     | 9.1°C – 19.9°C              |
+| 📈 24h Range     | 6.8°C – 19.6°C              |
 
 🧊 Wait, is this still Phoenix?
 
